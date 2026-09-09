@@ -55,4 +55,14 @@ console.log(x)
  console.log(m) 
  //m=200  ------->error
  console.log(m)
+
+ //Rules to declare variable name 
+ // variable name should not start with number
+ //variable name should not contain special character except $ and _
+ //variable name should not be reserved keyword
+ //variable name should not contain space   
+ //variable name should be meaningful and readable
+ //variable name should be camel case
+ //variable name should be case sensitive
+
  
