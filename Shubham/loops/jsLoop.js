@@ -32,3 +32,5 @@ for(var i=Number(num1);i<=num1;i++){
 console.log(factt)
 
 
+
+

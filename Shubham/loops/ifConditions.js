@@ -72,11 +72,11 @@ console.log("############################")
      for(var a of arr){
         console.log(a)
      }
-
-     var numm=12345
-     for(var n of numm){
-        console.log(n)
-     }
+//Because for...of works with iterable values, and a JavaScript number like 12345 is not iterable.
+    //  var numm=12345
+    //  for(var n of numm){
+    //     console.log(n)
+    //  }
 
 
 
