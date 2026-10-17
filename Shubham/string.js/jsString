@@ -1,0 +1,66 @@
+//String is immutable in nature ,we cannit update or modify the orignal string 
+//string follow indexing
+//askey values  A-Z = 65-90 , a-z= 97-122
+
+var name="shubham"
+var age=28
+var email="shubham007@gmail.com"
+var phone =9990292039
+
+console.log("my name is :",name)
+console.log(name[2])
+console.log("my name is "+name+" and age is "+age+" and my email is "+email+" and numbe is "+phone)
+console.log(`my name is ${name} and my age is ${age} and my email is ${email} with phone ${phone}`)
+console.log("#################################")
+//string methods
+//toUpperCase and toLowercase
+var nametoupper="sarika"
+console.log(nametoupper.toUpperCase())
+
+//include method : this method return true if any character/substring is available in target string 
+var s1="learnign javascript"
+console.log(s1.includes('java'))
+
+//replace method 
+var v2="my name is shub"
+console.log(v2.replace("name","my"))
+var v3="june july june aug"
+console.log(v3.replaceAll("june","Jan"))
+
+//trim -> white space we need to remove
+var v1=" my name is shubham "
+console.log(v1.trim())
+
+//split
+var v1="my name is shubham"
+console.log(v1.split(" "))
+
+//indexOf --->only first occuring index will show
+//if givin character or string is not available then it will return -1 in output 
+var v1="my name is shubs"
+console.log(v1.indexOf('s'))
+
+//slice - we want substring from long string 
+//slice(start index,last index)
+var v1="javascript programming"
+console.log(v1.slice(0,10))
+
+//concat method - will add 2 strings 
+var v1="my name is "
+var v2="shubham"
+console.log(v1.concat(v2))
+
+//askey value
+var v1="Z".charCodeAt(0)
+console.log(v1)
+
+//get character using askey value
+console.log(String.fromCharCode(65))
+
+//get all character into string 
+var temp=0;
+var result=""
+for(var i=65;i<=90;i++){
+    result +=String.fromCharCode(i)
+}
+console.log(result)

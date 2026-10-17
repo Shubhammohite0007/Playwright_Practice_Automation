@@ -59,5 +59,26 @@ multiplication(10,20)
 function userdetail(user){
      console.log(user)
      console.log(user.age)
+
+       for (const key in user) {
+    console.log(key, user[key])
 }
+}
+
 userdetail({name:'shubham',age:28,'phone':9098909990})
+
+//function with return value
+console.log("#############################")
+
+function factorial(num){
+    var fact=1
+    for(var i=1;i<=num;i++){
+          fact=fact*i
+    }
+    return fact
+}
+//console.log(factorial(5))
+var output=factorial(5)
+console.log(output)//
+
+
